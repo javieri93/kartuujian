@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ujian Siswa - Print</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            width: calc(50% - 10mm);
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10mm;
+            box-sizing: border-box;
+            page-break-inside: avoid;
+        }
+        .card-header {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-content {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .card-content td {
+            padding: 4px;
+            border-bottom: 1px solid #ddd;
+        }
+        .card-content tr:last-child td {
+            border-bottom: none;
+        }
+        .card-footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Card 1 -->
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: John Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12A</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 123456</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Matematika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 09:00 - 11:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<!-- Salin dan ulangi untuk 9 kartu berikutnya -->
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Kartu Ujian Siswa
+    </div>
+    <table class="card-content">
+        <tr>
+            <td>Nama</td>
+            <td>: Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>: 12B</td>
+        </tr>
+        <tr>
+            <td>Nomor Induk</td>
+            <td>: 654321</td>
+        </tr>
+        <tr>
+            <td>Mata Pelajaran</td>
+            <td>: Fisika</td>
+        </tr>
+        <tr>
+            <td>Waktu</td>
+            <td>: 13:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Tanggal</td>
+            <td>: 15 Agustus 2024</td>
+        </tr>
+    </table>
+    <div class="card-footer">
+        Semoga Sukses!
+    </div>
+</div>
+
+
+<!-- Tambahkan 8 kartu lagi dengan cara yang sama -->
+
+</body>
+</html>
